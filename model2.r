@@ -37,7 +37,7 @@ num_plots <- max(payoffs$mu_value)
 xrange <- range(payoffs$alpha_value)
 yrange <- range(payoffs$avg_value)
 colors <- rainbow(num_plots)
-plot(xrange, yrange, xlab="Alpha",
+plot(xrange, yrange, xlab="Alpha value",
      ylab="sum(Pn) / n" ) 
 title("Payoff amount given alpha/beta ratio = 1")
 
