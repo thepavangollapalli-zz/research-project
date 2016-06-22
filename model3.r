@@ -92,7 +92,7 @@ for(i in 1:num_plots)
 }
 
 #creates legend and grid
-legend(0,750, 1:num_plots, lty=c(1, 1, 1, 1, 1), col=colors, title="mu:x", box.lwd=2)
+#legend(0.4,750, 1:num_plots, lty=c(1, 1, 1, 1, 1), col=colors, title="mu:x", box.lwd=2)
 grid(nx = 30, ny = 30, col = "lightgray", lty = "dotted",
      lwd = par("lwd"), equilogs = TRUE)
 
